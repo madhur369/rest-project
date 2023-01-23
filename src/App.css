@@ -1,0 +1,78 @@
+.card-header ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.card-header ul li{
+    font-weight: bold;
+    font-size:1rem;
+}
+.card-header ul li span{
+    display: block;
+    font-weight: normal;
+}
+.card {
+    margin-bottom: .5rem;
+    border: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card-header ul li button {
+    background-color:#ff00008f !important;
+    border: 0;
+    border-radius: 21px;
+    color: white;
+    padding: 5px 10px;
+   
+}
+.card-body h3{
+    font-size:1rem;
+    font-weight:bold;
+}
+.card-body ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    padding: 0;
+}
+.card-body ul li{
+    font-weight: bold;
+    font-size:1rem;
+}
+.card-body ul li span{
+    display: block;
+    font-weight: normal;
+}
+.card-header {
+    background: transparent;
+    border: 0;
+}
+.main-app {
+    padding: 2rem;
+    background: #00ccff2b;
+}
+.card-body div{
+padding:1rem;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+ul.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+ul.pagination li {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+ul.pagination li.active{
+    background-color:#ff00008f;
+}
+.card-body ul li p{
+    display: flex;
+    gap: 10px;
+}
